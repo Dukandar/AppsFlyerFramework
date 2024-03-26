@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
     s.license          = { :type => 'Proprietary', :text => 'Copyright 2018 AppsFlyer Ltd. All rights reserved.' }
     s.author           = { 'Maxim' => 'maxim\@appsflyer.com', 'Andrii' => 'andrii.h\@appsflyer.com' }
     s.requires_arc = true
-    s.platform     = :ios, :tvos, :osx
+    s.platform     = :ios, :tvos, :osx, :visionos
     s.source       = {
         http: "https://github.com/AppsFlyerSDK/AppsFlyerFramework/releases/download/6.13.2/AppsFlyerLib-Binaries.zip",
         sha256: "e86bb68a3ea49ec6e25046b4393e88d50898089b2b5acaf9ea338a308a791f0f"
